@@ -176,22 +176,19 @@ p {
   border-radius: 10px;
 }
 
-.calltoaction .extradiv{
-  margin: 20px 100px;
+/* spaces the elements inside of the container */
+.calltoaction .extradiv{ 
+  margin: 20px 100px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
 }
-
-.calltoaction .extra{
+/* turns elements vertical */
+.calltoaction .extra{ 
   display: flex;
   flex-direction: column;
-
-
 }
-
-
 
 .calltoaction .text {
   color: white;
@@ -219,7 +216,6 @@ p {
   display: flex;
   align-items: center;
   font-size: 15px;
-
 }
 
 .footer{
@@ -228,5 +224,4 @@ p {
   text-align: center;
   color: white;
   padding-top: 50px;
-
 }
